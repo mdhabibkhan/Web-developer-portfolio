@@ -105,6 +105,10 @@ line-height: normal;
  /* banner section end here */
  
  /* about me section start here */
+ main{
+    max-width: 1140px;
+    margin: 0px auto;
+ }
  .about{
     border-radius: 10px;
      background: #FFF8F3;
@@ -126,6 +130,11 @@ text-align: center;
 font-size: 18px;
 font-style: normal;
 
+ }
+ .about-info-containt{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
  }
 
  /* about me section end here */
