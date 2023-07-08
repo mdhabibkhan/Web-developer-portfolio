@@ -1,0 +1,47 @@
+/* header section start here */
+.global-color{
+    color: #FD6E0A;
+}
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display:flex ;
+   
+}
+.btn-primary{
+    width: 150px;
+height: 64px;
+font-size: 20px;
+border-radius: 5px;
+background: #FD6E0A;
+font-weight: 400;
+border: none;
+color: white;
+}
+.nav-title{
+    
+    color: #181818;
+
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+};
+ nav > ul{
+    display: flex;
+
+ }
+ nav li{
+    list-style: none;
+    
+    margin-right: 50px; 
+ }
+
+ nav a{
+    text-decoration: none;
+    color: #474747;
+ }
