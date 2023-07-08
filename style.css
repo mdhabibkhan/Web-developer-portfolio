@@ -2,6 +2,10 @@
 .global-color{
     color: #FD6E0A;
 }
+.header{
+    background-color: #FFF8F3;
+   
+}
 body{
     
     font-family: 'Open Sans', sans-serif;
@@ -14,6 +18,8 @@ ul {
 nav{
     display:flex ;
     justify-content: space-between;
+    margin: 0 200px;
+    
   
 }
 .btn-primary{
@@ -44,4 +50,20 @@ line-height: normal;
  nav a{
     text-decoration: none;
     color: #474747;
+ }
+ /* nav section end here */
+
+ .banner-section{
+    display: flex;
+    padding: 30px 30px 30px 150px ;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .banner-child{
+    
+ }
+
+ .img-b{
+    width: 500px;
+    
  }
