@@ -115,7 +115,7 @@ line-height: normal;
      padding: 131px;
      margin: 130px;
  }
- .about-title{
+ .section-title{
     color: var(--dark-01, #181818);
 text-align: center;
 font-family: Open Sans;
@@ -125,7 +125,7 @@ font-weight: 700;
 line-height: normal;
  }
  .about-dis{
-    color: var(--dark-03, #757575);
+    color:  #757575;
 text-align: center;
 font-size: 18px;
 font-style: normal;
@@ -136,5 +136,65 @@ font-style: normal;
     justify-content: space-around;
     text-align: center;
  }
-
+ .info-title{
+    padding-fop: 10px;
+ }
+ .info-description{
+    padding-bottom: px;
+ }
  /* about me section end here */
+  /* what i do section start here */
+     #What-i-do{
+      padding: 0px 180px;
+      text-align: center;
+     }
+     .skill-conatiner{
+        display: flex;
+        padding-top: 33px;
+        margin:0px 131px;
+        gap: 24px;
+     }
+     .skill{
+        padding: 35px;
+        gap: 24px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+     }
+     .skill-description{
+        color:  #757575; 
+     }
+   
+
+   /* what i do section end here */
+
+   /* resume section start1 */
+   .resume-container{
+    display: flex;
+    gap: 50px;
+    margin: 130px;
+   }
+   .resume-column-title{
+    color: #474747;
+    font-size: 25px;
+     font-weight: 700;
+     margin-bottom: 10px;
+
+   }
+   .resume-item-inst{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+   }
+   .resume-item-desc{
+    color:  #757575;
+    font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+   
+   }
+   .download-cv{
+    text-align: center;
+   
+   }
