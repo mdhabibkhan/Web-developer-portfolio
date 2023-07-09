@@ -116,7 +116,7 @@ line-height: normal;
      margin: 130px;
  }
  .section-title{
-    color: var(--dark-01, #181818);
+    color:  #181818;
 text-align: center;
 font-family: Open Sans;
 font-size: 35px;
@@ -198,3 +198,44 @@ font-style: normal;
     text-align: center;
    
    }
+
+   /* resume section end here */
+
+   /* footer start here */
+     footer{
+      display: flex;
+      padding: 130px 180px;
+      background-color:#FFF8F3 ;
+      margin-top: 100px;
+      gap: 100px;
+      
+     }
+
+.footer-column{
+   width: 50%;
+   text-align: start;
+}
+.footer-title{
+   text-align: start;
+   color:  #181818;
+  
+  
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+.socal-links{
+   margin-right: 25px;
+}
+
+.contact-input,textarea{
+ display: block;
+ margin-bottom: 24px;
+ padding: 18px 35px;
+ color:  #757575;
+ border-radius: 5px;
+ background-color: white;
+ border: none;
+ width: 100%;
+}
